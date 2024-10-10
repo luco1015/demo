@@ -1,8 +1,8 @@
 name: Node Continuous Integration
 on: push
 jobs:
-  name: Build and Run Node project
   build-node:
+    name: Build and Run Node project
     runs-on: ubuntu-latest
     container: node:20
     steps:
